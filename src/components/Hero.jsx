@@ -29,13 +29,13 @@ const Hero = () => {
 
   return (
     <section
-      className="relative gap-6 lg:gap-10 z-10 min-h-dvh w-full flex-center flex-col lg:flex-row-reverse text-primary px-6 lg:px-16 bg-rings bg-no-repeat bg-position-[-10vw_5vw] lg:bg-position-[-20vw_15vw]"
+      className="relative gap-6 lg:gap-10 z-10 min-h-dvh w-full flex-center flex-col lg:flex-row-reverse text-primary px-6 lg:px-16 bg-rings bg-no-repeat bg-position-[40vw_40vh] lg:bg-position-[-20vw_15vw]"
       id="hero"
     >
       <div className="opacity-50 absolute inset-0 size-full bg-noisy pointer-events-none"></div>
 
       <div className=" flex-center">
-        <img src="/images/pfp.jpeg" alt="pfp" className="w-full l:max-w-xl rounded-sm lg:rounded-md" />
+        <img src="/images/pfp.jpeg" alt="pfp" className="max-w-4/5 lg:max-w-7xl rounded-sm lg:rounded-md" />
       </div>
 
       <div className="text-center lg:text-left">

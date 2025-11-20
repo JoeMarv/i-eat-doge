@@ -30,7 +30,7 @@ const Art = () => {
     <>
       <section
         id="arts"
-        className="p-16 uppercase bg-rings bg-no-repeat bg-position-[80vw_20vw]"
+        className="p-16 uppercase bg-rings bg-no-repeat bg-position-[80vw_20vw] overflow-hidden"
       >
         <h1 className="text-4xl">artworks</h1>
 

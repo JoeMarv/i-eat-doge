@@ -29,7 +29,7 @@ const Hero = () => {
 
   return (
     <section
-      className="relative gap-10 z-10 min-h-dvh w-full flex-center flex-row-reverse text-primary px-16 bg-rings bg-no-repeat bg-position-[-20vw_15vw]"
+      className="relative gap-6 lg:gap-10 z-10 min-h-dvh w-full flex-center flex-col lg:flex-row-reverse text-primary px-6 lg:px-16 bg-rings bg-no-repeat bg-position-[-10vw_5vw] lg:bg-position-[-20vw_15vw]"
       id="hero"
     >
       <div className="opacity-50 absolute inset-0 size-full bg-noisy pointer-events-none"></div>

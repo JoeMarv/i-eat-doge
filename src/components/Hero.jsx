@@ -35,19 +35,19 @@ const Hero = () => {
       <div className="opacity-50 absolute inset-0 size-full bg-noisy pointer-events-none"></div>
 
       <div className=" flex-center">
-        <img src="/images/pfp.jpeg" alt="pfp" className="max-w-xl rounded-md" />
+        <img src="/images/pfp.jpeg" alt="pfp" className="w-full l:max-w-xl rounded-sm lg:rounded-md" />
       </div>
 
-      <div className="hero-text">
-        <div className="mt-8 mb-4">
-          <h1 id="nice" className="text-6xl inline-block leading-tight">
+      <div className="text-center lg:text-left">
+        <div className="mt-4 mb-2 lg:mt-8 lg:mb-4">
+          <h1 id="nice" className="text-4xl lg:text-6xl inline-block leading-tight">
             Nice to meet you! I'm{" "}
             <span className="border-b-4 border-accent">I Eat Doge&#8482;</span>.
           </h1>
         </div>
 
-        <div className="my-16 text-secondary">
-          <p id="about" className="leading-relaxed text-2xl">
+        <div className="my-0 mt-8 lg:my-16 text-secondary">
+          <p id="about" className="leading-relaxed text-lg lg:text-2xl">
             I'm a graphic and NFT artist passionate about creating visually
             striking digital art and collectibles that connect with communities.
             Hit me up to take your project to the next level.

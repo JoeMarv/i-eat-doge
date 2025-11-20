@@ -30,13 +30,13 @@ const Art = () => {
     <>
       <section
         id="arts"
-        className="p-16 uppercase bg-rings bg-no-repeat bg-position-[80vw_20vw] overflow-hidden"
+        className="p-8 lg:p-16 uppercase bg-rings bg-no-repeat bg-position-[50vw_10vh] lg:bg-position-[80vw_20vw] overflow-hidden"
       >
-        <h1 className="text-4xl">artworks</h1>
+        <h1 className="text-2xl lg:text-4xl">artworks</h1>
 
         <div
           id="art-container"
-          className="py-8 grid grid-cols-2 gap-10 grid-flow-row"
+          className="py-8 grid grid-cols-1 lg:grid-cols-2 gap-10 grid-flow-row"
         >
           {[...pagesInfo]
             .sort((a, b) => a.title.localeCompare(b.title))
@@ -48,10 +48,10 @@ const Art = () => {
                   <img
                     src={`/images/${image}`}
                     alt={title}
-                    className="rounded-md w-full h-100 object-cover"
+                    className="rounded-md w-full h-80 lg:h-100 object-cover"
                   />
 
-                  <div className="absolute inset-0 flex-center backdrop-brightness-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer">
+                  <div className="absolute inset-0 flex-center backdrop-brightness-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer hidden lg:flex">
                     <button
                       className="uppercase text-xl border-b-2 border-accent py-2 cursor-pointer"
                       onClick={() => setActiveImage(`/images/${image}`)}
@@ -61,10 +61,10 @@ const Art = () => {
                   </div>
                 </div>
 
-                <h1 className="text-3xl mt-4">{title}</h1>
+                <h1 className="text-2xl lg:text-3xl mt-4">{title}</h1>
 
                 <button
-                  className="uppercase text-lg border-b-2 border-accent mt-2 w-fit hidden cursor-pointer"
+                  className="uppercase text-lg border-b-2 border-accent mt-2 w-fit lg:hidden cursor-pointer"
                   onClick={() => setActiveImage(`/images/${image}`)}
                 >
                   view artwork

@@ -33,7 +33,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed z-50 w-full flex flex-row justify-between align-center px-6 py-3 lg:px-16 lg:py-4">
+    <nav className="fixed z-50 w-full flex flex-row justify-between align-center px-8 py-3 lg:px-16 lg:py-4">
       <div className="w-1/4 lg:w-1/14 h-auto" id="logo">
         <img src="/images/logo.png" alt="logo" />
       </div>

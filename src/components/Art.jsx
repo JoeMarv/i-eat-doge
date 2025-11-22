@@ -46,6 +46,7 @@ const Art = () => {
                   <div className="opacity-50 absolute inset-0 size-full bg-noisy pointer-events-none"></div>
 
                   <img
+                    loading="lazy"
                     src={`/images/${image}`}
                     alt={title}
                     className="rounded-md w-full h-80 md:h-60 xl:h-100 object-cover"

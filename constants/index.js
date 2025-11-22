@@ -235,6 +235,11 @@ const pagesInfo = [
     image: "sentient7.jpeg",
     title: "sentient 7",
   },
+  {
+    id: 48,
+    image: "maestro.jpeg",
+    title: "maestro",
+  },
 ];
 
 export { pagesInfo };

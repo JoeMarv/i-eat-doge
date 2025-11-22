@@ -31,10 +31,10 @@ const ScrollToTop = () => {
       {visible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 lg:bottom-12 right-6 lg:right-12 z-50 p-1.5 lg:p-3 rounded-lg lg:rounded-lg shadow-lg 
+          className="fixed bottom-6 xl:bottom-12 right-6 xl:right-12 z-50 p-1.5 xl:p-3 rounded-lg xl:rounded-xl shadow-lg 
                      bg-black/10 dark:bg-white/10 backdrop-blur-sm transition-all duration-300"
         >
-          <img src="/images/caret-up-outline.svg" alt="scroll to top" className="w-8 lg:w-10 h-8 lg:h-10 inset-0"/>
+          <img src="/images/caret-up-outline.svg" alt="scroll to top" className="w-8 xl:w-10 h-8 xl:h-10 inset-0"/>
         </button>
       )}
     </>
